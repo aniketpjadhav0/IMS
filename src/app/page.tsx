@@ -59,7 +59,7 @@ export default function ComingSoon() {
   };
 
   return (
-    <div className="relative h-screen overflow-hidden bg-gradient-to-br from-white via-blue-50/30 to-cyan-50/30">
+    <div className="relative h-[100dvh] overflow-hidden bg-gradient-to-br from-white via-blue-50/30 to-cyan-50/30">
       {/* Animated Background Grid */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:4rem_4rem]" />
 
@@ -252,10 +252,10 @@ export default function ComingSoon() {
             </div>
 
             {/* Watermark */}
-            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 opacity-10 pointer-events-none">
+            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-10 pointer-events-none w-full px-4">
               <div className="text-center">
                 <div className="text-6xl md:text-8xl font-black text-slate-900 tracking-tighter">IMS</div>
-                <div className="text-xs md:text-sm font-medium text-slate-700 tracking-wider">INTEGRATED MEDTECH SOLUTIONS</div>
+                <div className="text-xs md:text-sm font-medium text-slate-700 tracking-wider whitespace-nowrap">INTEGRATED MEDTECH SOLUTIONS</div>
               </div>
             </div>
           </div>

@@ -12,7 +12,6 @@ const products = [
   "/products/IMG20210714092219.png",
   "/products/IMG20210714092925.png",
   "/products/IMG_20210206_170828.png",
-  "/products/IT 2003 DT.jpg",
   "/products/DSC_0021-PhotoRoom.png-PhotoRoom.png",
   "/products/Micro 2.png",
 ];
